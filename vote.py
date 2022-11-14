@@ -67,7 +67,7 @@ def main():
     for d in data:
         labels = list(map(lambda l: l['name'], d['labels']))
         
-        if 'round/2208' in labels and 'announcement' not in labels:
+        if 'round/2211' in labels and 'announcement' not in labels:
             s = d['title'].split(':')
             id = s[0]
             title = s[1]
